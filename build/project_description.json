@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "termo-higrometro-v3",
-    "project_version":    "1",
+    "project_version":    "1826f45-dirty",
     "project_path":       "C:/Users/jose/termo-higrometro-v3",
     "idf_path":           "C:/Users/jose/esp/v5.4/esp-idf",
     "build_dir":          "C:/Users/jose/termo-higrometro-v3/build",
@@ -25,8 +25,8 @@
         "COMPONENT_KCONFIGS_PROJBUILD" : "C:/Users/jose/esp/v5.4/esp-idf/components/bootloader/Kconfig.projbuild;C:/Users/jose/esp/v5.4/esp-idf/components/esp_app_format/Kconfig.projbuild;C:/Users/jose/esp/v5.4/esp-idf/components/esp_rom/Kconfig.projbuild;C:/Users/jose/esp/v5.4/esp-idf/components/esptool_py/Kconfig.projbuild;C:/Users/jose/esp/v5.4/esp-idf/components/partition_table/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "newlib", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "xtensa" ],
-    "build_components" : [ "app_trace", "app_update", "auth_manager", "bootloader", "bootloader_support", "bt", "cmock", "config_manager", "console", "cxx", "data_logger", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_cam", "esp_driver_dac", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_isp", "esp_driver_jpeg", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_ppa", "esp_driver_rmt", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_touch_sens", "esp_driver_tsens", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_eth", "esp_event", "esp_gdbstub", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_security", "esp_system", "esp_timer", "esp_vfs_console", "esp_wifi", "espcoredump", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "http_server", "idf_test", "ieee802154", "json", "log", "lwip", "main", "mbedtls", "mqtt", "newlib", "ntp_sync", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "rt", "sdmmc", "sensor_reader", "soc", "spi_flash", "spiffs", "task_manager", "tcp_transport", "ulp", "unity", "usb", "vfs", "wear_levelling", "wifi_manager", "wifi_provisioning", "wpa_supplicant", "xtensa", "" ],
-    "build_component_paths" : [ "C:/Users/jose/esp/v5.4/esp-idf/components/app_trace", "C:/Users/jose/esp/v5.4/esp-idf/components/app_update", "C:/Users/jose/termo-higrometro-v3/components/auth_manager", "C:/Users/jose/esp/v5.4/esp-idf/components/bootloader", "C:/Users/jose/esp/v5.4/esp-idf/components/bootloader_support", "C:/Users/jose/esp/v5.4/esp-idf/components/bt", "C:/Users/jose/esp/v5.4/esp-idf/components/cmock", "C:/Users/jose/termo-higrometro-v3/components/config_manager", "C:/Users/jose/esp/v5.4/esp-idf/components/console", "C:/Users/jose/esp/v5.4/esp-idf/components/cxx", "C:/Users/jose/termo-higrometro-v3/components/data_logger", "C:/Users/jose/esp/v5.4/esp-idf/components/driver", "C:/Users/jose/esp/v5.4/esp-idf/components/efuse", "C:/Users/jose/esp/v5.4/esp-idf/components/esp-tls", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_adc", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_app_format", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_bootloader_format", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_coex", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_common", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_ana_cmpr", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_cam", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_dac", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_gpio", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_gptimer", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_i2c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_i2s", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_isp", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_jpeg", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_ledc", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_mcpwm", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_parlio", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_pcnt", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_ppa", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_rmt", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_sdio", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_sdm", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_sdmmc", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_sdspi", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_spi", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_touch_sens", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_tsens", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_uart", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_usb_serial_jtag", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_eth", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_event", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_gdbstub", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hid", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_http_client", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_http_server", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_https_ota", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_https_server", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_lcd", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_local_ctrl", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_mm", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_netif", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_netif_stack", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_partition", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_phy", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_pm", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_psram", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_ringbuf", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_rom", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_security", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_system", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_timer", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_vfs_console", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_wifi", "C:/Users/jose/esp/v5.4/esp-idf/components/espcoredump", "C:/Users/jose/esp/v5.4/esp-idf/components/esptool_py", "C:/Users/jose/esp/v5.4/esp-idf/components/fatfs", "C:/Users/jose/esp/v5.4/esp-idf/components/freertos", "C:/Users/jose/esp/v5.4/esp-idf/components/hal", "C:/Users/jose/esp/v5.4/esp-idf/components/heap", "C:/Users/jose/esp/v5.4/esp-idf/components/http_parser", "C:/Users/jose/termo-higrometro-v3/components/http_server", "C:/Users/jose/esp/v5.4/esp-idf/components/idf_test", "C:/Users/jose/esp/v5.4/esp-idf/components/ieee802154", "C:/Users/jose/esp/v5.4/esp-idf/components/json", "C:/Users/jose/esp/v5.4/esp-idf/components/log", "C:/Users/jose/esp/v5.4/esp-idf/components/lwip", "C:/Users/jose/termo-higrometro-v3/main", "C:/Users/jose/esp/v5.4/esp-idf/components/mbedtls", "C:/Users/jose/esp/v5.4/esp-idf/components/mqtt", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib", "C:/Users/jose/termo-higrometro-v3/components/ntp_sync", "C:/Users/jose/esp/v5.4/esp-idf/components/nvs_flash", "C:/Users/jose/esp/v5.4/esp-idf/components/nvs_sec_provider", "C:/Users/jose/esp/v5.4/esp-idf/components/openthread", "C:/Users/jose/esp/v5.4/esp-idf/components/partition_table", "C:/Users/jose/esp/v5.4/esp-idf/components/perfmon", "C:/Users/jose/esp/v5.4/esp-idf/components/protobuf-c", "C:/Users/jose/esp/v5.4/esp-idf/components/protocomm", "C:/Users/jose/esp/v5.4/esp-idf/components/pthread", "C:/Users/jose/esp/v5.4/esp-idf/components/rt", "C:/Users/jose/esp/v5.4/esp-idf/components/sdmmc", "C:/Users/jose/termo-higrometro-v3/components/sensor_reader", "C:/Users/jose/esp/v5.4/esp-idf/components/soc", "C:/Users/jose/esp/v5.4/esp-idf/components/spi_flash", "C:/Users/jose/esp/v5.4/esp-idf/components/spiffs", "C:/Users/jose/termo-higrometro-v3/components/task_manager", "C:/Users/jose/esp/v5.4/esp-idf/components/tcp_transport", "C:/Users/jose/esp/v5.4/esp-idf/components/ulp", "C:/Users/jose/esp/v5.4/esp-idf/components/unity", "C:/Users/jose/esp/v5.4/esp-idf/components/usb", "C:/Users/jose/esp/v5.4/esp-idf/components/vfs", "C:/Users/jose/esp/v5.4/esp-idf/components/wear_levelling", "C:/Users/jose/termo-higrometro-v3/components/wifi_manager", "C:/Users/jose/esp/v5.4/esp-idf/components/wifi_provisioning", "C:/Users/jose/esp/v5.4/esp-idf/components/wpa_supplicant", "C:/Users/jose/esp/v5.4/esp-idf/components/xtensa", "" ],
+    "build_components" : [ "app_trace", "app_update", "bootloader", "bootloader_support", "bt", "cmock", "console", "cxx", "dht", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_cam", "esp_driver_dac", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_isp", "esp_driver_jpeg", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_ppa", "esp_driver_rmt", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_touch_sens", "esp_driver_tsens", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_eth", "esp_event", "esp_gdbstub", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_idf_lib_helpers", "esp_lcd", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_security", "esp_system", "esp_timer", "esp_vfs_console", "esp_wifi", "espcoredump", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "idf_test", "ieee802154", "json", "log", "lwip", "main", "mbedtls", "mqtt", "newlib", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "rt", "sdmmc", "soc", "spi_flash", "spiffs", "tcp_transport", "ulp", "unity", "usb", "vfs", "wear_levelling", "wifi_provisioning", "wpa_supplicant", "xtensa", "" ],
+    "build_component_paths" : [ "C:/Users/jose/esp/v5.4/esp-idf/components/app_trace", "C:/Users/jose/esp/v5.4/esp-idf/components/app_update", "C:/Users/jose/esp/v5.4/esp-idf/components/bootloader", "C:/Users/jose/esp/v5.4/esp-idf/components/bootloader_support", "C:/Users/jose/esp/v5.4/esp-idf/components/bt", "C:/Users/jose/esp/v5.4/esp-idf/components/cmock", "C:/Users/jose/esp/v5.4/esp-idf/components/console", "C:/Users/jose/esp/v5.4/esp-idf/components/cxx", "C:/Users/jose/termo-higrometro-v3/components/dht", "C:/Users/jose/esp/v5.4/esp-idf/components/driver", "C:/Users/jose/esp/v5.4/esp-idf/components/efuse", "C:/Users/jose/esp/v5.4/esp-idf/components/esp-tls", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_adc", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_app_format", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_bootloader_format", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_coex", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_common", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_ana_cmpr", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_cam", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_dac", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_gpio", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_gptimer", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_i2c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_i2s", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_isp", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_jpeg", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_ledc", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_mcpwm", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_parlio", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_pcnt", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_ppa", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_rmt", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_sdio", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_sdm", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_sdmmc", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_sdspi", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_spi", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_touch_sens", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_tsens", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_uart", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_driver_usb_serial_jtag", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_eth", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_event", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_gdbstub", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hid", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_http_client", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_http_server", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_https_ota", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_https_server", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support", "C:/Users/jose/termo-higrometro-v3/components/esp_idf_lib_helpers", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_lcd", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_local_ctrl", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_mm", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_netif", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_netif_stack", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_partition", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_phy", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_pm", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_psram", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_ringbuf", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_rom", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_security", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_system", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_timer", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_vfs_console", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_wifi", "C:/Users/jose/esp/v5.4/esp-idf/components/espcoredump", "C:/Users/jose/esp/v5.4/esp-idf/components/esptool_py", "C:/Users/jose/esp/v5.4/esp-idf/components/fatfs", "C:/Users/jose/esp/v5.4/esp-idf/components/freertos", "C:/Users/jose/esp/v5.4/esp-idf/components/hal", "C:/Users/jose/esp/v5.4/esp-idf/components/heap", "C:/Users/jose/esp/v5.4/esp-idf/components/http_parser", "C:/Users/jose/esp/v5.4/esp-idf/components/idf_test", "C:/Users/jose/esp/v5.4/esp-idf/components/ieee802154", "C:/Users/jose/esp/v5.4/esp-idf/components/json", "C:/Users/jose/esp/v5.4/esp-idf/components/log", "C:/Users/jose/esp/v5.4/esp-idf/components/lwip", "C:/Users/jose/termo-higrometro-v3/main", "C:/Users/jose/esp/v5.4/esp-idf/components/mbedtls", "C:/Users/jose/esp/v5.4/esp-idf/components/mqtt", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib", "C:/Users/jose/esp/v5.4/esp-idf/components/nvs_flash", "C:/Users/jose/esp/v5.4/esp-idf/components/nvs_sec_provider", "C:/Users/jose/esp/v5.4/esp-idf/components/openthread", "C:/Users/jose/esp/v5.4/esp-idf/components/partition_table", "C:/Users/jose/esp/v5.4/esp-idf/components/perfmon", "C:/Users/jose/esp/v5.4/esp-idf/components/protobuf-c", "C:/Users/jose/esp/v5.4/esp-idf/components/protocomm", "C:/Users/jose/esp/v5.4/esp-idf/components/pthread", "C:/Users/jose/esp/v5.4/esp-idf/components/rt", "C:/Users/jose/esp/v5.4/esp-idf/components/sdmmc", "C:/Users/jose/esp/v5.4/esp-idf/components/soc", "C:/Users/jose/esp/v5.4/esp-idf/components/spi_flash", "C:/Users/jose/esp/v5.4/esp-idf/components/spiffs", "C:/Users/jose/esp/v5.4/esp-idf/components/tcp_transport", "C:/Users/jose/esp/v5.4/esp-idf/components/ulp", "C:/Users/jose/esp/v5.4/esp-idf/components/unity", "C:/Users/jose/esp/v5.4/esp-idf/components/usb", "C:/Users/jose/esp/v5.4/esp-idf/components/vfs", "C:/Users/jose/esp/v5.4/esp-idf/components/wear_levelling", "C:/Users/jose/esp/v5.4/esp-idf/components/wifi_provisioning", "C:/Users/jose/esp/v5.4/esp-idf/components/wpa_supplicant", "C:/Users/jose/esp/v5.4/esp-idf/components/xtensa", "" ],
     "build_component_info" : {
         "app_trace": {
             "alias": "idf::app_trace",
@@ -57,21 +57,6 @@
             "file": "C:/Users/jose/termo-higrometro-v3/build/esp-idf/app_update/libapp_update.a",
             "sources": [ "C:/Users/jose/esp/v5.4/esp-idf/components/app_update/esp_ota_ops.c", "C:/Users/jose/esp/v5.4/esp-idf/components/app_update/esp_ota_app_desc.c" ],
             "include_dirs": [ "include" ]
-        },
-        "auth_manager": {
-            "alias": "idf::auth_manager",
-            "target": "___idf_auth_manager",
-            "prefix": "idf",
-            "dir": "C:/Users/jose/termo-higrometro-v3/components/auth_manager",
-            "type": "LIBRARY",
-            "lib": "__idf_auth_manager",
-            "reqs": [],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "C:/Users/jose/termo-higrometro-v3/build/esp-idf/auth_manager/libauth_manager.a",
-            "sources": [ "C:/Users/jose/termo-higrometro-v3/components/auth_manager/auth_manager.c" ],
-            "include_dirs": [ "." ]
         },
         "bootloader": {
             "alias": "idf::bootloader",
@@ -133,21 +118,6 @@
             "sources": [ "C:/Users/jose/esp/v5.4/esp-idf/components/cmock/CMock/src/cmock.c" ],
             "include_dirs": [ "CMock/src" ]
         },
-        "config_manager": {
-            "alias": "idf::config_manager",
-            "target": "___idf_config_manager",
-            "prefix": "idf",
-            "dir": "C:/Users/jose/termo-higrometro-v3/components/config_manager",
-            "type": "LIBRARY",
-            "lib": "__idf_config_manager",
-            "reqs": [],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "C:/Users/jose/termo-higrometro-v3/build/esp-idf/config_manager/libconfig_manager.a",
-            "sources": [ "C:/Users/jose/termo-higrometro-v3/components/config_manager/config_manager.c" ],
-            "include_dirs": [ "." ]
-        },
         "console": {
             "alias": "idf::console",
             "target": "___idf_console",
@@ -178,19 +148,19 @@
             "sources": [ "C:/Users/jose/esp/v5.4/esp-idf/components/cxx/cxx_exception_stubs.cpp", "C:/Users/jose/esp/v5.4/esp-idf/components/cxx/cxx_guards.cpp", "C:/Users/jose/esp/v5.4/esp-idf/components/cxx/cxx_init.cpp" ],
             "include_dirs": []
         },
-        "data_logger": {
-            "alias": "idf::data_logger",
-            "target": "___idf_data_logger",
+        "dht": {
+            "alias": "idf::dht",
+            "target": "___idf_dht",
             "prefix": "idf",
-            "dir": "C:/Users/jose/termo-higrometro-v3/components/data_logger",
+            "dir": "C:/Users/jose/termo-higrometro-v3/components/dht",
             "type": "LIBRARY",
-            "lib": "__idf_data_logger",
-            "reqs": [],
+            "lib": "__idf_dht",
+            "reqs": [ "driver", "freertos", "log", "esp_idf_lib_helpers" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "C:/Users/jose/termo-higrometro-v3/build/esp-idf/data_logger/libdata_logger.a",
-            "sources": [ "C:/Users/jose/termo-higrometro-v3/components/data_logger/data_logger.c" ],
+            "file": "C:/Users/jose/termo-higrometro-v3/build/esp-idf/dht/libdht.a",
+            "sources": [ "C:/Users/jose/termo-higrometro-v3/components/dht/dht.c" ],
             "include_dirs": [ "." ]
         },
         "driver": {
@@ -808,6 +778,21 @@
             "sources": [ "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/cpu.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/port/esp32/esp_cpu_intr.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/esp_memory_utils.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/port/esp32/cpu_region_protect.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/esp_clk.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/clk_ctrl_os.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/hw_random.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/intr_alloc.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/mac_addr.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/periph_ctrl.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/revision.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/rtc_module.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/sleep_modem.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/sleep_modes.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/sleep_console.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/sleep_gpio.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/sleep_event.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/regi2c_ctrl.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/esp_gpio_reserve.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/sar_periph_ctrl_common.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/port/esp32/io_mux.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/port/esp32/esp_clk_tree.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/port/esp_clk_tree_common.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/dma/esp_dma_utils.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/dma/gdma_link.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/spi_share_hw_ctrl.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/spi_bus_lock.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/rtc_wdt.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/mspi_timing_tuning.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/sleep_wake_stub.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/esp_clock_output.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/port/esp32/rtc_clk_init.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/port/esp32/rtc_init.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/port/esp32/rtc_sleep.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/port/esp32/chip_info.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/port/esp32/cache_sram_mmu.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/port/esp32/sar_periph_ctrl.c", "C:/Users/jose/esp/v5.4/esp-idf/components/esp_hw_support/lowpower" ],
             "include_dirs": [ "include", "include/soc", "include/soc/esp32", "dma/include", "ldo/include", "debug_probe/include" ]
         },
+        "esp_idf_lib_helpers": {
+            "alias": "idf::esp_idf_lib_helpers",
+            "target": "___idf_esp_idf_lib_helpers",
+            "prefix": "idf",
+            "dir": "C:/Users/jose/termo-higrometro-v3/components/esp_idf_lib_helpers",
+            "type": "CONFIG_ONLY",
+            "lib": "__idf_esp_idf_lib_helpers",
+            "reqs": [ "freertos" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "",
+            "sources": [],
+            "include_dirs": [ "." ]
+        },
         "esp_lcd": {
             "alias": "idf::esp_lcd",
             "target": "___idf_esp_lcd",
@@ -1153,21 +1138,6 @@
             "sources": [ "C:/Users/jose/esp/v5.4/esp-idf/components/http_parser/http_parser.c" ],
             "include_dirs": [ "." ]
         },
-        "http_server": {
-            "alias": "idf::http_server",
-            "target": "___idf_http_server",
-            "prefix": "idf",
-            "dir": "C:/Users/jose/termo-higrometro-v3/components/http_server",
-            "type": "LIBRARY",
-            "lib": "__idf_http_server",
-            "reqs": [],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "C:/Users/jose/termo-higrometro-v3/build/esp-idf/http_server/libhttp_server.a",
-            "sources": [ "C:/Users/jose/termo-higrometro-v3/components/http_server/http_server.c" ],
-            "include_dirs": [ "." ]
-        },
         "idf_test": {
             "alias": "idf::idf_test",
             "target": "___idf_idf_test",
@@ -1251,7 +1221,7 @@
             "type": "LIBRARY",
             "lib": "__idf_main",
             "reqs": [],
-            "priv_reqs": [ "spi_flash" ],
+            "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/Users/jose/termo-higrometro-v3/build/esp-idf/main/libmain.a",
@@ -1302,21 +1272,6 @@
             "file": "C:/Users/jose/termo-higrometro-v3/build/esp-idf/newlib/libnewlib.a",
             "sources": [ "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/abort.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/assert.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/heap.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/flockfile.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/locks.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/poll.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/pthread.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/random.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/getentropy.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/reent_init.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/newlib_init.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/syscalls.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/termios.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/stdatomic.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/time.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/sysconf.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/realpath.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/scandir.c", "C:/Users/jose/esp/v5.4/esp-idf/components/newlib/port/esp_time_impl.c" ],
             "include_dirs": [ "platform_include" ]
-        },
-        "ntp_sync": {
-            "alias": "idf::ntp_sync",
-            "target": "___idf_ntp_sync",
-            "prefix": "idf",
-            "dir": "C:/Users/jose/termo-higrometro-v3/components/ntp_sync",
-            "type": "LIBRARY",
-            "lib": "__idf_ntp_sync",
-            "reqs": [],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "C:/Users/jose/termo-higrometro-v3/build/esp-idf/ntp_sync/libntp_sync.a",
-            "sources": [ "C:/Users/jose/termo-higrometro-v3/components/ntp_sync/ntp_sync.c" ],
-            "include_dirs": [ "." ]
         },
         "nvs_flash": {
             "alias": "idf::nvs_flash",
@@ -1468,21 +1423,6 @@
             "sources": [ "C:/Users/jose/esp/v5.4/esp-idf/components/sdmmc/sdmmc_cmd.c", "C:/Users/jose/esp/v5.4/esp-idf/components/sdmmc/sdmmc_common.c", "C:/Users/jose/esp/v5.4/esp-idf/components/sdmmc/sdmmc_init.c", "C:/Users/jose/esp/v5.4/esp-idf/components/sdmmc/sdmmc_io.c", "C:/Users/jose/esp/v5.4/esp-idf/components/sdmmc/sdmmc_mmc.c", "C:/Users/jose/esp/v5.4/esp-idf/components/sdmmc/sdmmc_sd.c", "C:/Users/jose/esp/v5.4/esp-idf/components/sdmmc/sd_pwr_ctrl/sd_pwr_ctrl.c" ],
             "include_dirs": [ "include" ]
         },
-        "sensor_reader": {
-            "alias": "idf::sensor_reader",
-            "target": "___idf_sensor_reader",
-            "prefix": "idf",
-            "dir": "C:/Users/jose/termo-higrometro-v3/components/sensor_reader",
-            "type": "LIBRARY",
-            "lib": "__idf_sensor_reader",
-            "reqs": [],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "C:/Users/jose/termo-higrometro-v3/build/esp-idf/sensor_reader/libsensor_reader.a",
-            "sources": [ "C:/Users/jose/termo-higrometro-v3/components/sensor_reader/sensor_reader.c" ],
-            "include_dirs": [ "." ]
-        },
         "soc": {
             "alias": "idf::soc",
             "target": "___idf_soc",
@@ -1527,21 +1467,6 @@
             "file": "C:/Users/jose/termo-higrometro-v3/build/esp-idf/spiffs/libspiffs.a",
             "sources": [ "C:/Users/jose/esp/v5.4/esp-idf/components/spiffs/spiffs_api.c", "C:/Users/jose/esp/v5.4/esp-idf/components/spiffs/spiffs/src/spiffs_cache.c", "C:/Users/jose/esp/v5.4/esp-idf/components/spiffs/spiffs/src/spiffs_check.c", "C:/Users/jose/esp/v5.4/esp-idf/components/spiffs/spiffs/src/spiffs_gc.c", "C:/Users/jose/esp/v5.4/esp-idf/components/spiffs/spiffs/src/spiffs_hydrogen.c", "C:/Users/jose/esp/v5.4/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.c", "C:/Users/jose/esp/v5.4/esp-idf/components/spiffs/esp_spiffs.c" ],
             "include_dirs": [ "include" ]
-        },
-        "task_manager": {
-            "alias": "idf::task_manager",
-            "target": "___idf_task_manager",
-            "prefix": "idf",
-            "dir": "C:/Users/jose/termo-higrometro-v3/components/task_manager",
-            "type": "LIBRARY",
-            "lib": "__idf_task_manager",
-            "reqs": [],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "C:/Users/jose/termo-higrometro-v3/build/esp-idf/task_manager/libtask_manager.a",
-            "sources": [ "C:/Users/jose/termo-higrometro-v3/components/task_manager/task_manager.cpp" ],
-            "include_dirs": [ "." ]
         },
         "tcp_transport": {
             "alias": "idf::tcp_transport",
@@ -1632,21 +1557,6 @@
             "file": "C:/Users/jose/termo-higrometro-v3/build/esp-idf/wear_levelling/libwear_levelling.a",
             "sources": [ "C:/Users/jose/esp/v5.4/esp-idf/components/wear_levelling/Partition.cpp", "C:/Users/jose/esp/v5.4/esp-idf/components/wear_levelling/SPI_Flash.cpp", "C:/Users/jose/esp/v5.4/esp-idf/components/wear_levelling/WL_Ext_Perf.cpp", "C:/Users/jose/esp/v5.4/esp-idf/components/wear_levelling/WL_Ext_Safe.cpp", "C:/Users/jose/esp/v5.4/esp-idf/components/wear_levelling/WL_Flash.cpp", "C:/Users/jose/esp/v5.4/esp-idf/components/wear_levelling/crc32.cpp", "C:/Users/jose/esp/v5.4/esp-idf/components/wear_levelling/wear_levelling.cpp" ],
             "include_dirs": [ "include" ]
-        },
-        "wifi_manager": {
-            "alias": "idf::wifi_manager",
-            "target": "___idf_wifi_manager",
-            "prefix": "idf",
-            "dir": "C:/Users/jose/termo-higrometro-v3/components/wifi_manager",
-            "type": "LIBRARY",
-            "lib": "__idf_wifi_manager",
-            "reqs": [],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "C:/Users/jose/termo-higrometro-v3/build/esp-idf/wifi_manager/libwifi_manager.a",
-            "sources": [ "C:/Users/jose/termo-higrometro-v3/components/wifi_manager/wifi_manager.cpp" ],
-            "include_dirs": [ "." ]
         },
         "wifi_provisioning": {
             "alias": "idf::wifi_provisioning",
@@ -2962,102 +2872,30 @@
             "dir": "C:/Users/jose/termo-higrometro-v3/main",
             "lib": "__idf_main",
             "reqs": [],
-            "priv_reqs": [ "spi_flash" ],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "include_dirs": [ "." ]
-        },
-        "auth_manager": {
-            "alias": "idf::auth_manager",
-            "target": "___idf_auth_manager",
-            "prefix": "idf",
-            "dir": "C:/Users/jose/termo-higrometro-v3/components/auth_manager",
-            "lib": "__idf_auth_manager",
-            "reqs": [],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "." ]
         },
-        "config_manager": {
-            "alias": "idf::config_manager",
-            "target": "___idf_config_manager",
+        "dht": {
+            "alias": "idf::dht",
+            "target": "___idf_dht",
             "prefix": "idf",
-            "dir": "C:/Users/jose/termo-higrometro-v3/components/config_manager",
-            "lib": "__idf_config_manager",
-            "reqs": [],
+            "dir": "C:/Users/jose/termo-higrometro-v3/components/dht",
+            "lib": "__idf_dht",
+            "reqs": [ "driver", "freertos", "log", "esp_idf_lib_helpers" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "." ]
         },
-        "data_logger": {
-            "alias": "idf::data_logger",
-            "target": "___idf_data_logger",
+        "esp_idf_lib_helpers": {
+            "alias": "idf::esp_idf_lib_helpers",
+            "target": "___idf_esp_idf_lib_helpers",
             "prefix": "idf",
-            "dir": "C:/Users/jose/termo-higrometro-v3/components/data_logger",
-            "lib": "__idf_data_logger",
-            "reqs": [],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "include_dirs": [ "." ]
-        },
-        "http_server": {
-            "alias": "idf::http_server",
-            "target": "___idf_http_server",
-            "prefix": "idf",
-            "dir": "C:/Users/jose/termo-higrometro-v3/components/http_server",
-            "lib": "__idf_http_server",
-            "reqs": [],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "include_dirs": [ "." ]
-        },
-        "ntp_sync": {
-            "alias": "idf::ntp_sync",
-            "target": "___idf_ntp_sync",
-            "prefix": "idf",
-            "dir": "C:/Users/jose/termo-higrometro-v3/components/ntp_sync",
-            "lib": "__idf_ntp_sync",
-            "reqs": [],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "include_dirs": [ "." ]
-        },
-        "sensor_reader": {
-            "alias": "idf::sensor_reader",
-            "target": "___idf_sensor_reader",
-            "prefix": "idf",
-            "dir": "C:/Users/jose/termo-higrometro-v3/components/sensor_reader",
-            "lib": "__idf_sensor_reader",
-            "reqs": [],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "include_dirs": [ "." ]
-        },
-        "task_manager": {
-            "alias": "idf::task_manager",
-            "target": "___idf_task_manager",
-            "prefix": "idf",
-            "dir": "C:/Users/jose/termo-higrometro-v3/components/task_manager",
-            "lib": "__idf_task_manager",
-            "reqs": [],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "include_dirs": [ "." ]
-        },
-        "wifi_manager": {
-            "alias": "idf::wifi_manager",
-            "target": "___idf_wifi_manager",
-            "prefix": "idf",
-            "dir": "C:/Users/jose/termo-higrometro-v3/components/wifi_manager",
-            "lib": "__idf_wifi_manager",
-            "reqs": [],
+            "dir": "C:/Users/jose/termo-higrometro-v3/components/esp_idf_lib_helpers",
+            "lib": "__idf_esp_idf_lib_helpers",
+            "reqs": [ "freertos" ],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],

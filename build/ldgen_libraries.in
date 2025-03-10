@@ -82,11 +82,4 @@ $<TARGET_FILE:__idf_rt>
 $<TARGET_FILE:__idf_spiffs>
 $<TARGET_FILE:__idf_wifi_provisioning>
 $<TARGET_FILE:__idf_main>
-$<TARGET_FILE:__idf_auth_manager>
-$<TARGET_FILE:__idf_config_manager>
-$<TARGET_FILE:__idf_data_logger>
-$<TARGET_FILE:__idf_http_server>
-$<TARGET_FILE:__idf_ntp_sync>
-$<TARGET_FILE:__idf_sensor_reader>
-$<TARGET_FILE:__idf_task_manager>
-$<TARGET_FILE:__idf_wifi_manager>
+$<TARGET_FILE:__idf_dht>

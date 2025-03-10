@@ -554,41 +554,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/jose/termo-higrometro-v3/build/esp-idf/auth_manager/cmake_install.cmake")
+  include("C:/Users/jose/termo-higrometro-v3/build/esp-idf/esp_idf_lib_helpers/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/jose/termo-higrometro-v3/build/esp-idf/config_manager/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/jose/termo-higrometro-v3/build/esp-idf/data_logger/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/jose/termo-higrometro-v3/build/esp-idf/http_server/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/jose/termo-higrometro-v3/build/esp-idf/ntp_sync/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/jose/termo-higrometro-v3/build/esp-idf/sensor_reader/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/jose/termo-higrometro-v3/build/esp-idf/task_manager/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/jose/termo-higrometro-v3/build/esp-idf/wifi_manager/cmake_install.cmake")
+  include("C:/Users/jose/termo-higrometro-v3/build/esp-idf/dht/cmake_install.cmake")
 endif()
 
